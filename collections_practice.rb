@@ -22,9 +22,9 @@ end
 
 def swap_elements(array, index, destination_index)
   a = array[index]
-  b = array[2]
+  b = array[destination_index]
   
-  array[1] = b
+  array[index] = b
   array[2] = a
   
   return array
