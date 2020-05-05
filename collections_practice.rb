@@ -19,3 +19,13 @@ def swap_elements(array)
   
   return array
 end
+
+def swap_elements(array)
+  a = array[1]
+  b = array[2]
+  
+  array[1] = b
+  array[2] = a
+  
+  return array
+end
