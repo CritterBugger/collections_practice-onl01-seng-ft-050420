@@ -20,7 +20,7 @@ def swap_elements(array)
   return array
 end
 
-def swap_elements(array)
+def swap_elements(array, index)
   a = array[1]
   b = array[2]
   
