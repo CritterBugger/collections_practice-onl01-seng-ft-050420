@@ -58,3 +58,7 @@ end
 def sum_array(array)
   return array.inject {|a, b| a + b}
 end
+
+def add_s(array)
+  return array.each_with_index.collect {|a, b||
+end
