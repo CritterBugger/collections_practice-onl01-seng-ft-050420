@@ -45,6 +45,12 @@ def kesha_maker(array)
   return new_array
 end
 
-def find_a
+def find_a(array)
+  new_array = []
   
+  array.each do |a|
+    new_array.push(a) if a.start_with?("a")
+  end
+  
+  return new_array
 end
