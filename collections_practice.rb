@@ -35,5 +35,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  return array.collect {|a|, a[2] = "$"}
+  return array.collect {|a| a[2] = "$"}
 end
