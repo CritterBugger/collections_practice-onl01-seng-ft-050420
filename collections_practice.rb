@@ -1,13 +1,13 @@
-def sort_array_asc(ints)
-  return ints.sort
+def sort_array_asc(array)
+  return array.sort
 end
 
-def sort_array_desc(ints)
-  return ints.sort.reverse
+def sort_array_desc(array)
+  return array.sort.reverse
 end
 
-def sort_array_char_count(strings)
-  return strings.sort {|a,b| a.length <=> b.length}
+def sort_array_char_count(array)
+  return array.sort {|a,b| a.length <=> b.length}
 end
 
 def swap_elements(array)
@@ -28,4 +28,8 @@ def swap_elements_from_to(array, index, destination_index)
   array[destination_index] = a
   
   return array
+end
+
+def reverse_array(array)
+  return array.reverse
 end
